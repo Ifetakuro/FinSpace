@@ -1,0 +1,52 @@
+.testimonial-card {
+  border-radius: 1rem 0.2rem;
+  border: 3px solid #d5dddd;
+  padding: 1rem;
+  min-height: 18rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.profile-div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.profile-div img {
+  width: 3.5rem;
+  height: 3.5rem;
+  /* height: 3rem; */
+}
+
+.profile-div h4 {
+  color: #1e1e1e;
+
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 128.023%; /* 30.725px */
+}
+
+.profile-div p {
+  color: #b0b0b0;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.testimonial-card .quote {
+  color: #575757;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 181.023%; /* 36.205px */
+}
+
+.comment-svg {
+  display: flex;
+  margin-top: auto;
+}
+
+.comment-svg svg {
+  margin-left: auto;
+  width: 2rem;
+}

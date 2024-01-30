@@ -1,0 +1,29 @@
+.custom-btn {
+  outline: none;
+  border: 1px solid transparent;
+  color: #fff;
+  padding: 0.7rem 1rem;
+  border-radius: 0.2rem;
+  width: fit-content;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 146.523%; /* 29.305px */
+  background-color: #008080;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  min-width: 8rem;
+}
+
+.custom-btn:hover {
+  opacity: 0.9;
+}
+
+.custom-btn.outline {
+  border-color: #d5dddd;
+  color: #1e1e1e;
+  background-color: #fff;
+}
+
+.custom-btn.light-green {
+  background: #20cfc6;
+}

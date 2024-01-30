@@ -1,0 +1,8 @@
+.services-list {
+  display: flex;
+  gap: 1rem;
+}
+
+.services-list img {
+  width: 2rem;
+}

@@ -1,0 +1,37 @@
+.testimonial-cards .testimonial-card:nth-of-type(2) {
+  border: 3px solid #008080 !important;
+  background: #008080 !important;
+}
+
+.testimonial-cards .testimonial-card:nth-of-type(2) h4,
+.testimonial-cards .testimonial-card:nth-of-type(2) .quote {
+  color: #fff;
+}
+.testimonial-cards .testimonial-card:nth-of-type(2) .comment-svg svg {
+  path {
+    fill: #fff;
+  }
+}
+
+.offers {
+  margin: 2rem 0;
+}
+
+.offers-heading {
+  color: #1e1e1e;
+  font-size: 2rem;
+  margin-top: 9rem;
+  font-weight: 700;
+  max-width: 40rem;
+  line-height: 128.023%; /* 51.209px */
+}
+
+.offers .offer:nth-of-type(1) span {
+  background: #dafafc;
+}
+.offers .offer:nth-of-type(2) span {
+  background: #fde4e4;
+}
+.offers .offer:nth-of-type(3) span {
+  background: #dafcdf;
+}

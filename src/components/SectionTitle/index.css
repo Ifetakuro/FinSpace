@@ -1,0 +1,30 @@
+.section-title {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.section-title p {
+  color: #008080 !important;
+  font-size: 1.1rem;
+  font-weight: 500;
+  border-radius: 0.3rem;
+  background: rgba(32, 207, 198, 0.08);
+  padding: 0.3rem 1rem;
+}
+
+.section-title span {
+  /* display: inline-block; */
+  width: 6rem;
+  height: 0.1rem;
+  background: #008080 !important;
+}
+
+@media screen and (max-width: 678px) {
+  .section-title p {
+    font-size: 0.9rem;
+  }
+  .section-title span {
+    width: 4rem;
+  }
+}

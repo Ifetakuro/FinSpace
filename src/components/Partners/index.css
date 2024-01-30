@@ -1,0 +1,19 @@
+.partners {
+  filter: grayscale(100%) opacity(0.5);
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.partners img {
+  width: 10rem;
+}
+
+@media screen and (max-width: 768px) {
+  .partners img {
+    width: 6rem;
+  }
+}
